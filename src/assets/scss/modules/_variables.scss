@@ -1,0 +1,78 @@
+$green: #3cb878;
+$orange: #f7941d;
+$yellow: #fbb81b;
+$yellow-dark: #f7ad00;
+$red: #ed1c24;
+$blue: #007CF8;
+$grey: #d7d7da;
+$grey-light: #F5F5F5;
+$grey-100: #d2d2d2;
+$cyan: #75cfd8;
+$cyan-dark: #62bbc3;
+$black: #000;
+
+$color-primary: #007CF8;
+$color-success: #17E300;
+$color-error: #ef1f12;
+$color-border: #444;
+$text-default: #000;
+$text-primary: $color-primary;
+$text-secondary: #C4C4C4;
+$text-success: $color-success;
+$text-darker: #838383;
+$text-info: #0EC5F6;
+$text-danger: #FF1313;
+
+$label-color: #899BAA;
+$color-placeholder: #B2B2B2;
+$tooltip-bg: #4e4e4e;
+$border-color: #595959;
+$border-radius: 2px;
+
+$bgr-color-grey: #eef1f3;
+$bgr-color-black: #222629;
+$bgr-color-brown: #dad6ce;
+$bgr-color-blue: #edf3f3;
+$bgr-color-green: #edfdeb;
+
+$loader-color: #f3f3f3;
+
+$header-title-size: 20px;
+
+$color-student: #0EC5F6;
+$color-student-dark: #01A0CB;
+
+$role-colors: (
+	'admin': (
+		'dark': #C60000,
+		'base': #C60000,
+	),
+	'client': (
+		'dark': #C60000,
+		'base': #C60000,
+	),
+);
+
+$box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+$box-shadow-hover: 0 0 13px rgba(0, 0, 0, 0.2);
+
+$body-bg: #FFF;
+
+$input-color: #E6E6E6;
+
+$dropdown-bg: #FFF;
+$dropdown-text: #E6E6E6;
+$dropdown-border: #00000029;
+
+$grey-dark: #373737;
+$grey-darker: #222222;
+$bg-secondary: #232323;
+$line-color: #707070;
+
+$btn-default-bg: #404040;
+$btn-primary-bg: $color-primary;
+$btn-primary-color: #fff;
+
+$navbar-height: 57px;
+
+$progress-bg: #313131;

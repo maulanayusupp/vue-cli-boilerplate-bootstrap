@@ -1,0 +1,25 @@
+.navbar {
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 6px -1px;
+
+	.router-link-active {
+		color: #2f7cf8 !important;
+	}
+
+	.nav-link-avatar {
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		margin-left: 10px;
+		border: 1px solid #e1e1e1;
+		border-radius: 100%;
+		position: relative;
+		top: 0px;
+		line-height: 1.8;
+	}
+
+	.profile-dropdown {
+		.dropdown-toggle:after {
+			content: none;
+		}
+	}
+}

@@ -1,0 +1,86 @@
+.full-width {
+	width: 100%;
+}
+
+.chip-item {
+	background-color: lightblue;
+	font-size: 11px;
+    padding: 6px 12px;
+	line-height: 1;
+	margin-bottom: 3px;
+	height: auto;
+}
+
+.truncate-description-category{
+	width: 200px!important;
+	padding-right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.truncate-content-article{
+	width: 300px!important;
+	padding-right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.color-preview {
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	transition: border-radius 200ms ease-in-out;
+	cursor: pointer;
+}
+
+.color-picker {
+	position: absolute;
+	top: 100%;
+	z-index: 9;
+
+	&-left {
+		left: 0;
+	}
+
+	&-top {
+		top: 0;
+	}
+
+	&-right {
+		right: 0;
+	}
+}
+
+.error-color-input {
+	top: 0; margin-left: 10px; margin-top: 3.7em; font-size:11px; color: red;
+}
+
+#editor-container {
+	height: 175px!important;
+}
+
+.input-phone{
+	padding-top: 7px;
+	padding-left: 35px;
+}
+
+.icon-green {
+	color: green!important;
+	padding-bottom: 13px;
+	margin-left: 0.5em;
+}
+.icon-danger {
+	color: red!important;
+	padding-bottom: 13px;
+	margin-left: 0.5em;
+}
+
+.country-selector__list {
+	max-height: 162px!important; 
+}
+
+.error-phone .input-tel__input {
+    border-color: red!important;
+}

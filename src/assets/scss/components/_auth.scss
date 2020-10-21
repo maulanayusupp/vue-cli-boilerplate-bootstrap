@@ -1,0 +1,38 @@
+.page-auth {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    margin: auto;
+	.auth-box {
+		margin: auto;
+		max-width: 400px;
+		padding: 30px 30px;
+	}
+	.forgot-password-link {
+		float:right;
+		font-size:12px;
+	}
+}
+
+.material-icons-password {
+	cursor: pointer;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size:25px;
+	color: #2C96FF;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	right: 0;
+}

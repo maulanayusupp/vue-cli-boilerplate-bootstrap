@@ -1,0 +1,53 @@
+.form-group {
+	margin-bottom: 10px;
+	label {
+		color: black;
+	}
+}
+
+.form-control {
+	&:focus,
+	&.is-focus {
+		color: black;
+		border-color: #2C96FF;
+		background-color: transparent;
+		box-shadow: none;
+
+		.color-input-append {
+			border-color: #2C96FF !important;
+		}
+	}
+
+	&-plain {
+		padding: 0;
+		border: 0;
+		background-color: transparent;
+
+		&:focus {
+			border: 0;
+			box-shadow: none;
+			background-color: transparent;
+		}
+	}
+
+	option {
+		background-color: $body-bg;
+	}
+
+	&:disabled{
+		background-color: #595959;
+	}
+}
+.form-control[readonly] {
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+.error-input {
+	border-color: red;
+}
+
+.text-error {
+	font-size: 10px;
+	color: red;
+}

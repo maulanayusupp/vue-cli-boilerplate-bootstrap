@@ -1,0 +1,40 @@
+.md-list {
+	&.md-theme-default {
+		background-color: white;
+	}
+}
+
+.md-list-item {
+	&.active {
+		background-color: #2C96FF!important;
+		.md-list-item-content {
+			color: #fff;
+		}
+	}
+	&:hover {
+		background-color: #2C96FF!important;
+		.md-list-item-content {
+			color: #fff;
+		}
+	}
+}
+.md-list-item-container {
+	font-size: 1rem;
+}
+
+.md-list-item-content {
+	min-height: 40px;
+}
+.md-menu-content {
+	min-width: 108px;
+	border: 1px solid #e1e1e1;
+	border-radius: .25rem;
+	z-index: 9999;
+	max-height: 100%;
+	.md-menu-content-container {
+		border-radius: .25rem;
+	}
+}
+.md-menu-item {
+	cursor: pointer;
+}

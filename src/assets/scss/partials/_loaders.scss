@@ -1,0 +1,38 @@
+.is-loading {
+	position: relative;
+	color: transparent !important;
+	pointer-events: none;
+
+	&:after {
+		content: '';
+		display: block;
+		@include absolute-center;
+		width: 1em;
+		height: 1em;
+		border: 2px solid grey;
+		border-radius: 50%;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		-webkit-animation: spinAround 500ms infinite linear;
+		animation: spinAround 500ms infinite linear;
+	}
+
+	&.large:after {
+		width: 2em;
+		height: 2em;
+		border-width: 3px;
+	}
+
+	&.dark:after {
+		border-left-color: grey;
+		border-bottom-color: grey;
+	}
+}
+
+.app-loader {
+	height: 4rem;
+}
+
+.vld-overlay .vld-background {
+ opacity: 1!important;
+}
